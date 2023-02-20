@@ -33,5 +33,22 @@ ul li a {
     text-decoration: none;
     margin: 10px 0;
     padding: 0 20px;
-    
+}
+
+#marker {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    margin-top: -5px;
+    background: #2196f3;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
