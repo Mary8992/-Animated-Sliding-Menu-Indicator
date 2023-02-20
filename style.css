@@ -52,3 +52,29 @@ ul li a {
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
 }
+
+@media (max-width: 1000px) {
+    ul {
+        flex-direction: row;
+    }
+
+    ul li a {
+        margin: 0 20px;
+        font-size: 1.5em;
+    }
+
+    #marker {
+        margin-top: auto;
+        height: 4px;
+        margin-top: auto;
+        left: 0;
+        width: 100%;
+       
+        bottom: -8px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+}
