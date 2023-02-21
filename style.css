@@ -61,20 +61,40 @@ ul li a {
     ul li a {
         margin: 0 20px;
         font-size: 1.5em;
+        padding: 0 9px;
     }
 
     #marker {
+        background: #f321aa;
         margin-top: auto;
         height: 4px;
         margin-top: auto;
         left: 0;
         width: 100%;
-       
         bottom: -8px;
         border-radius: 4px;
         -webkit-border-radius: 4px;
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
+    }
+}
+
+@media (max-width: 810px) {
+    ul {
+        flex-direction: column;
+    }
+
+    ul li a {
+        font-size: 1.8em;
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+
+    #marker {
+        height: 50px;
+        margin-top: -8px;
+        left: auto;
+        bottom: auto;
     }
 }
